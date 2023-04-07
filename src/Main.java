@@ -39,5 +39,7 @@ public class Main {
         calculator.include(lost);
         System.out.println("calculator " +calculator.getTotalTime() + " min");
 
+
+
     }
 }
