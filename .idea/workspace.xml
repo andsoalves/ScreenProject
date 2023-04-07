@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feb8ad70-6d56-4563-b705-ddbfa73f4b0e" name="Changes" comment="Create Project Scream Match" />
+    <list default="true" id="feb8ad70-6d56-4563-b705-ddbfa73f4b0e" name="Changes" comment="Create Project Screen Match">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/minhasmusicas/model/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/minhasmusicas/model/MinhasPrefeeridas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/minhasmusicas/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/minhasmusicas/model/Podcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculation/Classification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculation/Recommends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/model/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/minhasmusicas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/model/Film.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,12 +52,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.minhasmusicas" />
       <recent name="br.com.alura.screenmatch.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.minhasmusicas.Main" />
+      <module name="ScreenMatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.minhasmusicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.alura.screenmatch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.screenmatch.Main" />
       <module name="ScreenMatch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,6 +80,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.br.com.alura.screenmatch.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680889384813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create Project Scream Match">
+      <created>1680889691185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680889691185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create Project Screen Match">
+      <created>1680889860577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680889860577</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,7 +122,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -89,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project Scream Match" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project Scream Match" />
+    <MESSAGE value="Create Project Screen Match" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Project Screen Match" />
   </component>
 </project>

@@ -1,3 +1,6 @@
+package br.com.alura.screenmatch;
+
+import br.com.alura.screenmatch.calculation.Recommends;
 import br.com.alura.screenmatch.calculation.TimeCalculator;
 import br.com.alura.screenmatch.model.Film;
 import br.com.alura.screenmatch.model.Serie;
@@ -38,6 +41,9 @@ public class Main {
         calculator.include(myFilm);
         calculator.include(lost);
         System.out.println("calculator " +calculator.getTotalTime() + " min");
+
+        Recommends recommends = new Recommends();
+        recommends.filter(myFilm);
 
 
 
